@@ -3,6 +3,6 @@
 
 
 int main() {
-    printf("%s", welcome());
+    printf("You entered:", "%s");
     return 0;
 }
