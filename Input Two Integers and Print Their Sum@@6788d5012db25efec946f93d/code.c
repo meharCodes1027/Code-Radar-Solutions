@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int a,b;
     scanf("%d", &num);
-    printf("Sum:",num);
+    printf("Sum: a+b",num);
     return 0;
 }
