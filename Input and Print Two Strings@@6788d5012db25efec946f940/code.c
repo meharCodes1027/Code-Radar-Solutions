@@ -5,8 +5,8 @@ int main() {
     scanf("%s", str1);
     scanf("%s", str2);
 
-    printf("You entered: %s\n", str1);
-    printf("You entered: %s\n", str2);
+    printf("You entered: %s", and,  str1);
+    printf("You entered: %s", str2);
 
     return 0;
 }
