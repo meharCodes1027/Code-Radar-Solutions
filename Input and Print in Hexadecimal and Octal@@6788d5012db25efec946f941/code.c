@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int number = 12;
+    int number = 10;
 
     printf("Hexadecimal : A\n", number);
 
