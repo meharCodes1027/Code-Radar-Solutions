@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int number = 255;
+    int number = 2;
 
     printf("Hexadecimal :", number);
 
