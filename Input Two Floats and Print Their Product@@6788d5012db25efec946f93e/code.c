@@ -4,8 +4,9 @@ int main() {
     float num1, num2;
     scanf("%f", &num1);
     scanf("%f", &num2);
+ float product = num1 * num2;
 
-    printf("Product: %.2f and %.2f\n", num1, num2);
-    return 0;
+    printf("Product: %.2f\n", product);
+return 0;
 
 }
