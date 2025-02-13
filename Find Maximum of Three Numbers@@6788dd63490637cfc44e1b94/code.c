@@ -21,7 +21,7 @@ else if (b>c){
     printf("%d",b);
 }
 else if (a == b== c){
-    printf("%d",a);
+    printf("%d",b);
 }
 return 0;
 
