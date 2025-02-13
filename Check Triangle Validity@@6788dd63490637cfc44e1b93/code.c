@@ -6,9 +6,9 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
     
     if (a + b > c)
-        {printf("Valid\n");}
+        {printf("Valid");}
     else
-        {printf("Invalid\n");}
+        {printf("Invalid");}
     
     return 0;
 }
