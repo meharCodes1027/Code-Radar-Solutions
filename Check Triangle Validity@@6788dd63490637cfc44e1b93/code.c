@@ -6,9 +6,9 @@ int main() {
     scanf("%f %f %f", &a, &b, &c);
     
     if (a + b > c)
-        printf("Valid\n");
+        {printf("Valid\n");}
     else
-        printf("Invalid\n");
+        {printf("Invalid\n");}
     
     return 0;
 }
