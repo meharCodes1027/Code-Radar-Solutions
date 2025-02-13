@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main () {
-    char alpha;
-    scanf("%c", &alpha);
+    char ch;
+    scanf("%c", &ch);
   if (ch >= 'a' && ch <= 'z') {
         char upperCh = ch - 32; 
         printf("The character in uppercase is: %c\n", upperCh);
