@@ -6,11 +6,11 @@ int main() {
 
     if (ch >= 'a' && ch <= 'z') {
         char upperCh = ch - 32;
-        printf("Lowercase: %c\n", upperCh);
+        printf("Lowercase", upperCh);
     }
     else if (ch >= 'A' && ch <= 'Z') {
         char lowerCh = ch + 32; 
-        printf("Uppercase: %c\n", lowerCh);
+        printf("Uppercase", lowerCh);
     } else {
         printf("Not an alphabet\n");
     }
