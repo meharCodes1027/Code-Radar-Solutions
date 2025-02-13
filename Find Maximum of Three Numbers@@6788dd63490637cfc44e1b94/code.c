@@ -20,7 +20,7 @@ else if (b>a){
 else if (b>c){
     printf("%d",b);
 }
-else if (a==b==c){
+else if (a == b== c){
     printf("%d",a);
 }
 return 0;
