@@ -5,12 +5,12 @@ int main() {
     scanf("%c", &ch);
 
     if (ch >= 'a' && ch <= 'z') {
-        char upperCh = ch - 32;
-        printf("Lowercase", upperCh);
+        char lowerCh = ch - 32;
+        printf("Lowercase", lowerCh);
     }
     else if (ch >= 'A' && ch <= 'Z') {
-        char lowerCh = ch + 32; 
-        printf("Uppercase", lowerCh);
+        char upperCh = ch + 32; 
+        printf("Uppercase", upperCh);
     } else {
         printf("Not an alphabet\n");
     }
