@@ -9,7 +9,7 @@ int main () {
     else if (ch >= 'A' && ch <= 'Z') {
         char lowerCh = ch + 32; 
         printf("Uppercase", lowerCh);
-    
+    else{ printf ("Not an alphabet");}
     }
 
     return 0;
