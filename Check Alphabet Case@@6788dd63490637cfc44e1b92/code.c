@@ -8,9 +8,9 @@ int main () {
     }
     else if (ch >= 'A' && ch <= 'Z') {
         char lowerCh = ch + 32; 
-        printf("The character in lowercase is: %c\n", lowerCh);
+        printf("Lowercase", lowerCh);
     } else {
-        printf("You entered a non-alphabetical character.\n");
+        printf("Uppercase");
     }
 
     return 0;
