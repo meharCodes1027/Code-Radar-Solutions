@@ -3,22 +3,22 @@ int main () {
 int a; int b; int c;
 scanf(" %d %d %d", &a, &b, &c);
 if (a>b){
-    print("%d",a);
+    printf("%d",a);
 }
 else if (a>c){
-    print("%d",a);
+    printf("%d",a);
 }
 else if (c>b){
-    print("%d",c);
+    printf("%d",c);
 }
 else if (c>a){
-    print("%d",c);
+    printf("%d",c);
 }
 else if (b>a){
-    print("%d",b);
+    printf("%d",b);
 }
 else if (b>c){
-    print("%d",b);
+    printf("%d",b);
 }
 
 return 0;
