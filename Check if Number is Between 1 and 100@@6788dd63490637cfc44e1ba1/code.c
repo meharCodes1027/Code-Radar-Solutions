@@ -3,6 +3,6 @@
 int main (){
     int num;
     scanf("%d", &num);
-    num >= 1 && num <= 200 ? printf("In Range") : printf("Out of Range");
+    num >= 1 && num <= 100 ? printf("In Range") : printf("Out of Range");
     return 0;
 }
