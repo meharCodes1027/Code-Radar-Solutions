@@ -23,11 +23,11 @@ int main() {
                 // Perform integer division and print the result
                 printf("%d\n", num1 / num2);
             } else {
-                printf("Error\n");
+                printf("error\n");
             }
             break;
         default:
-            printf("Error\n");
+            printf("error\n");
     }
 
     return 0;
