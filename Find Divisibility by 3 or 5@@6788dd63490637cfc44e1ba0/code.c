@@ -3,16 +3,16 @@ int main () {
     int num;
     scanf("%d", &num);
     if(num % 3==0  && num % 5==0) {
-        printf("Divisble by both");
+        printf("Divisible by both");
 }
-   else if(num % 3 !==0  && num % 5 !==0) {
+   else if(num % 3 !=0  && num % 5 !=0) {
         printf("Neither");
 }
     else if(num % 3==0 ) {
-        printf("Divisble by 3");
+        printf("Divisible by 3");
 }
     else if( num % 5==0) {
-        printf("Divisble by 5");
+        printf("Divisible by 5");
 }
      return 0;
 }
