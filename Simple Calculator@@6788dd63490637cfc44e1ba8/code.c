@@ -23,7 +23,7 @@ int main() {
             }
             break;
         default:
-            printf("Invalid operator! Please enter one of +, -, *, or /.\n");
+            printf("Error");
     }
 
     return 0;
