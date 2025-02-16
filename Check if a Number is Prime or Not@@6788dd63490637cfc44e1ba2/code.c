@@ -3,6 +3,6 @@
 int main () {
     int num;
     scanf("%d", &num);
-    if num > 1 && num % 1 && num ==0 printf("Prime") : printf("Not Prime");
+     num > 1 && num % 1 && num ==0 ? printf("Prime") : printf("Not Prime");
     return 0;
 }
