@@ -3,7 +3,7 @@
 int main (){
     int n,m;
     scanf("%d %d", &n,&m);
-    if ((num1 > 0 && num2 > 0) || (num1 < 0 && num2 < 0)) {
+    if ((n > 0 && m > 0) || (n < 0 && m < 0)) {
         printf("Same Sign");
     } 
     else {
