@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main () {
-    char tf: {
+    char (tf) {
     scanf("%c", &tf);
     switch(tf):
     case 'R':
