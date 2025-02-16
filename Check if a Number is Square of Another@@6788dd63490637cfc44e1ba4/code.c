@@ -9,7 +9,7 @@ int main() {
     } else if (num2 * num2 == num1) {
         printf("%d is the square of %d.\n", num1, num2);
     } else {
-        printf("Neither number is the square of the other.\n");
+        printf("No\n");
     }
 
     return 0;
