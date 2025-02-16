@@ -3,6 +3,8 @@
 int main (){
     int m, n;
     scanf( "%d %d", &m, &n);
-    (m & n) ? printf("True") : printf("False");
+     int result = m & n;
+    printf("%d\n", result);
+
     return 0;
 }
