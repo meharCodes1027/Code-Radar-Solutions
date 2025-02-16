@@ -10,24 +10,24 @@ int main() {
     // Perform the operation based on the operator
     switch (operator) {
         case '+':
-            printf(" %d +%d");
+            printf("%d\n", num1 + num2);
             break;
         case '-':
-            printf(" num1 - num2");
+            printf("%d\n", num1 - num2);
             break;
         case '*':
-            printf("num1 * num2");
+            printf("%d\n", num1 * num2);
             break;
         case '/':
             if (num2 != 0) {
                 // Perform integer division and print the result
-                printf(" num1 / num2");
+                printf("%d\n", num1 / num2);
             } else {
-                printf("Error");
+                printf("Error\n");
             }
             break;
         default:
-            printf("Error");
+            printf("Error\n");
     }
 
     return 0;
