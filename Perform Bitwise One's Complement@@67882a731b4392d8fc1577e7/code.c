@@ -3,10 +3,9 @@
 
 int main() {
     int m, result;
-    scanf("%d ", &m, );
-    result = ~m ; 
-    
-    printf("%d\n",m, result); 
-    
+    scanf("%d", &m);
+    result = ~m;
+    printf(" %d\n", result);
+
     return 0;
 }
