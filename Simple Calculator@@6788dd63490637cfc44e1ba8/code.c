@@ -6,17 +6,17 @@ int main() {
     scanf("%d %d %c", &num1, &num2, &operator);
     switch (operator) {
         case '+':
-            printf("%d + %d = %d\n",  num1 + num2);
+            printf("%d + %d = %d\n");
             break;
         case '-':
-            printf("%d - %d = %d\n",  num1 - num2);
+            printf("%d - %d = %d\n");
             break;
         case '*':
-            printf("%d * %d = %d\n",  num1 * num2);
+            printf("%d * %d = %d\n");
             break;
         case '/':
             if (num2 != 0) {
-                printf("%d / %d = %d\n", num1 / num2);
+                printf("%d / %d = %d\n");
             } else {
                 printf("Error: Division by zero\n");
             }
