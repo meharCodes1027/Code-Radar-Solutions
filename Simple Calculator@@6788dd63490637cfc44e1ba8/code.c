@@ -21,14 +21,6 @@ int main() {
             if (num2 != 0) {
                 
                 printf("%d %d / = %d\n", num1, num2, num1 / num2);
-            } else {
-                printf("Error: Division by zero\n");
-            }
-            break;
-        default:
-            printf("Invalid operator!\n");
-    }
-
     return 0;
 }
 
