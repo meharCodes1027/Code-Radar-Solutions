@@ -4,7 +4,7 @@
 int main() {
     int m, result;
     scanf("%d ", &m, );
-    result = ( ~m ); 
+    result = ~m ; 
     
     printf("%d\n", result); 
     
