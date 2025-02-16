@@ -3,31 +3,26 @@
 int main() {
     int num1, num2;
     char operator;
-
-    // Input two numbers followed by the operator
     scanf("%d %d %c", &num1, &num2, &operator);
-
-    // Perform the operation based on the operator
     switch (operator) {
         case '+':
-            printf("%d + %d = %d\n", num1, num2, num1 + num2);
+            printf("%d + %d = %d\n",  num1 + num2);
             break;
         case '-':
-            printf("%d - %d = %d\n", num1, num2, num1 - num2);
+            printf("%d - %d = %d\n",  num1 - num2);
             break;
         case '*':
-            printf("%d * %d = %d\n", num1, num2, num1 * num2);
+            printf("%d * %d = %d\n",  num1 * num2);
             break;
         case '/':
             if (num2 != 0) {
-                // Perform division, cast to float for more accurate results
-                printf("%d / %d = %.2f\n", num1, num2, (float)num1 / num2);
+                printf("%d / %d = %d\n", num1 / num2);
             } else {
                 printf("Error: Division by zero\n");
             }
             break;
         default:
-            printf("Invalid operator!\n");
+            printf("Error");
     }
 
     return 0;
