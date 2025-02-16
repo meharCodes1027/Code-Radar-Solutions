@@ -10,7 +10,7 @@ int main() {
     // Perform the operation based on the operator
     switch (operator) {
         case '+':
-            printf(" num1 + num2");
+            printf(" %d +%d");
             break;
         case '-':
             printf(" num1 - num2");
