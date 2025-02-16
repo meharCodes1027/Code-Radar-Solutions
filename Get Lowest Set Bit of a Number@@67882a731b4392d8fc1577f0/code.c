@@ -7,7 +7,7 @@ int main() {
     
     int lowest_set_bit = num & -num;
     
-    printf("%d\n", lowest_set_bit);
+    printf("%d\n",num);
     
     return 0;
 }
