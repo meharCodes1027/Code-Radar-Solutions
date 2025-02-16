@@ -5,7 +5,7 @@ int main() {
     scanf("%d %d", &n1, &n2);
     if (n1 <= n2) {
         printf("Yes\n");
-    } else {
+    } else if (n1 >= n2) {
         printf("No\n");   
     }
 
