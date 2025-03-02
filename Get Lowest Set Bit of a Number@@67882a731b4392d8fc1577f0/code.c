@@ -5,8 +5,9 @@ int main() {
     int num;
     scanf("%d", &num);
     int lowest_set_bit = num & -num;
-    printf("%d- %d\n", num, lowest_set_bit);  
+    printf("%d %d\n", num, lowest_set_bit);  
     
     return 0;
 }
+
 
