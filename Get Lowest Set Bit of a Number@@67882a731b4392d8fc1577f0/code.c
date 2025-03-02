@@ -4,10 +4,16 @@
 int main() {
     int num;
     scanf("%d", &num);
-    int lowest_set_bit = num & -num;
-    printf("%d %d\n", num, lowest_set_bit);  
+    
+    if (num == 1) {
+        printf("0\n");
+    } else {
+        int lowest_set_bit = num & -num;
+        printf("%d %d\n", num, lowest_set_bit);
+    }
     
     return 0;
 }
+
 
 
